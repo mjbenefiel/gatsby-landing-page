@@ -14,10 +14,11 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li> */}
+                <li><a href="https://mjb-blog.netlify.com/" target="_blank">Blog</a></li>
+                <li><a href="https://mjb-flashcards.netlify.com/" target="_blank">Flash Cards</a></li>
+                <li><a href="https://mjb-presentation.netlify.com/" target="_blank">Presentation</a></li>
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li> */}
             </ul>
         </nav>
     </header>
